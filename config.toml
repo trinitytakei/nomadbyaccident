@@ -1,0 +1,35 @@
+title   = "Writing, Hacking, Bootstrapping"
+baseURL = "https://www.nomadbyaccident.com/"
+tags = ["tech", "blogging", "writing", "marketing", "lifehacking"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+
+[Params]
+    author      = "Trinity Takei"
+    description = "Musings on Life, Remote Work, Technology, Entrepreneurship, Startups and more"
+    logoBig = "/images/nomadbyaccident-hero.png"
+    logoSmall = "/images/nomadbyaccident-small-logo.png"
+    favicon = "favicon.ico"
+    opengraphImage = "nomadbyaccident-hero.png"
+    twitter = "TrinityTakei"
+    #github = "TrinityTakei"
+    email = "trinity.takei@gmail.com"    
+    highlightJS = true
+    copyright = false
+    credit = false
+
+[[menu.main]]
+    name = "Home"
+    url  = "/#"
+    weight = 1
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 2
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 3
+
